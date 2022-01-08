@@ -1,0 +1,7 @@
+body {
+	background-color: #cccccc;
+	background-image: url("res/img/img.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat;
+	height: 600px;
+}
