@@ -14,7 +14,8 @@
 			var url = new URL(url_string);
 			var time = url.searchParams.get("time");
 			var score = url.searchParams.get("score");
-			console.log(time);
+			document.getElementById("time").innerHTML = "time: " + time;
+			document.getElementById("score").innerHTML = "score: " + score;
 			console.log(score);
 		</script>
 		
